@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aldiros.modul2.homeActivity"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/txt_cover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="6dp"
+        android:text="Welcome to Abnormal Cafe"
+        android:textSize="18sp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/txt_intro"
+        android:layout_below="@id/txt_cover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="6dp"
+        android:text="Pilih Jenis Pesanan:"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:gravity="center"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_below="@id/txt_intro"
+        android:padding="16dp"
+        >
+
+        <RadioButton
+            android:id="@+id/dinein"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/dine_in"
+            android:onClick="onRadioButtonClicked"
+            />
+
+        <RadioButton
+            android:id="@+id/takeaway"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/take_away"
+            android:onClick="onRadioButtonClicked"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_pesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:text="Pesan Sekarang"
+        android:onClick="onButtonClicked"/>
+
+
+</LinearLayout>

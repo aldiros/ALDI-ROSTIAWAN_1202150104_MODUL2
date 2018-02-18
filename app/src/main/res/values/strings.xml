@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">modul2</string>
+    <string name="dine_in">Dine In</string>
+    <string name="take_away">Take Away</string>
+    <string name="pilih">Anda Memilih: </string>
+    <string name="nothing_clicked">onRadioButtonClicked: Nothing clicked</string>
+    <string name="nothing_selected">onNothingSelected:</string>
+
+    <string-array name="labels_array">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+        <item>Meja 5</item>
+        <item>Meja 6</item>
+        <item>Meja 7</item>
+        <item>Meja 8</item>
+    </string-array>
+
+    <string name="pilih_dinein">Telah Terpilih</string>
+
+    <array name="menu_images">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+        <item>@drawable/f</item>
+        <item>@drawable/g</item>
+        <item>@drawable/h</item>
+        <item>@drawable/i</item>
+        <item>@drawable/j</item>
+    </array>
+
+    <string-array name="menu_nama">
+        <item>Sate Taichan</item>
+        <item>Mie Goreng</item>
+        <item>Cheese Burger</item>
+        <item>Soft Drink</item>
+        <item>Es Teh Manis</item>
+        <item>Bajigur</item>
+        <item>Nasi Goreng</item>
+        <item>Jengkol Abnormal</item>
+        <item>Ayam Goreng</item>
+        <item>Ikan Bakar</item>
+    </string-array>
+
+    <string-array name="harga">
+        <item>Rp 20.000</item>
+        <item>Rp 15.000</item>
+        <item>Rp 30.000</item>
+        <item>Rp 10.000</item>
+        <item>Rp 7.000</item>
+        <item>Rp 5.000</item>
+        <item>Rp 25.000</item>
+        <item>Rp 20.000</item>
+        <item>Rp 25.000</item>
+        <item>Rp 35.000</item>
+    </string-array>
+    <string-array name="komposisi">
+        <item>Daging Ayam, Sambal, Bumbu Kecap</item>
+        <item>Mie, Telor Mata Sapi, Kerupuk</item>
+        <item>Cheese, Beef, Roti</item>
+        <item>Air dan Soda</item>
+        <item>Teh,Gula, Es</item>
+        <item>Resep Rahasia Bajigur Abnormal</item>
+        <item>Nasi, Rempah-rempah, Sambal</item>
+        <item>Jengkol, Bumbu semur</item>
+        <item>Ayam, Bumbu rahasia</item>
+        <item>Ikan Gurame, kecap sedap</item>
+    </string-array>
+</resources>
